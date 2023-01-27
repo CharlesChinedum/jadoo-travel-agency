@@ -7,7 +7,7 @@ import { partners } from "../Data";
 
 const Testimonials = () => {
   return (
-    <div className="w-full h-[70vh] px-7 sm:px-[7rem] mb-[13rem] mt-[15rem] sm:mt-0">
+    <div className="w-full h-[70vh] px-7 sm:px-[7rem] mb-[13rem] mt-[15rem] sm:mt-0 testimonial">
       <div className="w-full flex flex-col sm:flex-row pt-20">
         <div className="flex-1 w-full sm:w-1/2 mb-10 sm:mb-0">
           <h2 className="text-[#5E6282] text-[18px] font-[600] leading-[27px] uppercase">

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 .border {
   border: 2px black solid;
@@ -15,4 +16,28 @@
 
 .poppins-title {
   font-family: "Poppins", sans-serif;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+@media screen and (max-width: 370px) {
+  .navbar {
+    padding-bottom: 5rem;
+  }
+  .services {
+    padding-top: 10rem;
+  }
+  .book-trip {
+    padding-top: 12rem;
+  }
+  .testimonial {
+    padding-top: 23rem;
+    padding-bottom: 30rem;
+  }
+  .subscribe {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }

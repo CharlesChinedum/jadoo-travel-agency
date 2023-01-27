@@ -13,7 +13,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar z-10">
+    <nav className="w-full flex py-6 justify-between items-center navbar z-10 mb-5">
       <div className="">
         <img src={logo} alt="hoobank" className="W-[124px] h-[32px]" />
       </div>
@@ -23,7 +23,7 @@ const Navbar = () => {
           {navItems.map((nav, index) => (
             <li
               key={index}
-              className={`text-[#212832] text-[17px] font-[400] leading-[22px] hover:cursor-pointer px-3 z-10 ${
+              className={`text-[#212832] text-[17px] font-[400] leading-[22px]  poppinshover:cursor-pointer px-3 z-10 poppins ${
                 index === navItems.length - 1 ? "mr-0" : "mr-10"
               }`}
             >
@@ -34,13 +34,13 @@ const Navbar = () => {
       </div>
 
       <div className="sm:flex hidden w-[20%] justify-between z-10">
-        <NavButton name="Login" className="text-black mx-3" />
+        <NavButton name="Login" className="text-black mx-3 poppins" />
         <NavButton
           name="Sign Up"
-          className="text-black px-5 py-2 border rounded-md"
+          className="text-black px-5 py-2 border rounded-md poppins"
         />
         <div className="flex items-center hover:cursor-pointer">
-          <p>EN</p>
+          <p className="poppins">EN</p>
           <div className="mx-2">
             <img src={navArrow} alt="navArrow" />
           </div>

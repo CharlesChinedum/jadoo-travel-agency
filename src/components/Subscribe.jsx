@@ -8,7 +8,7 @@ import sendIcon from "/assets/send icon.png";
 
 const Subscribe = () => {
   return (
-    <div className="w-full h-[70vh] relative mb-10">
+    <div className="w-full h-[80vh] sm:h-[70vh] relative mb-10">
       <div className="w-full relative h-full px-7 sm:px-[7rem]">
         <div className="hidden sm:block">
           <img
@@ -33,7 +33,7 @@ const Subscribe = () => {
                 interesting offers about Jadoo
               </h1>
 
-              <div className="flex flex-col sm:flex-row z-20">
+              <div className="flex flex-col sm:flex-row z-20 px-7 sm:px-5 ">
                 <div className="bg-white flex mx-5 px-5 py-3 w-[20rem] rounded-[10px] items-center mr-5 mb-3 sm:mb-0">
                   <img
                     src={emailIcon}

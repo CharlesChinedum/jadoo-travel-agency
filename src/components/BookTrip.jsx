@@ -6,7 +6,7 @@ import { bookTrip } from "../Data";
 
 const BookTrip = () => {
   return (
-    <div className="h-[70vh] flex flex-col sm:flex-row justify-between px-7 sm:px-[7rem] mt-[68rem] sm:mt-0">
+    <div className="h-[70vh] flex flex-col sm:flex-row justify-between px-7 sm:px-[7rem] mt-[65rem] sm:mt-0 book-trip">
       <div className="flex flex-col w-full sm:w-1/2 flex-1 justify-center">
         <p className="text-[#5E6282] text-[18px] font-[600] leading-[27px]">
           Easy and Fast

@@ -25,7 +25,7 @@ const Destinations = () => {
               name={item.name}
               price={item.price}
               duration={item.duration}
-              img={`../../public/assets/${item.img}`}
+              img={`/assets/${item.img}`}
               key={index}
             />
           ))}

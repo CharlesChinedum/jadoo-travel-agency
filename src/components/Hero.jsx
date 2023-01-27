@@ -10,13 +10,13 @@ import { Navbar } from "../components";
 
 const Hero = () => {
   return (
-    <div className="w-full h-[100vh]">
+    <div className="w-full h-[100vh] mb-[10rem] sm:mb-0 ">
       <div className="w-full relative  sm:px-[7rem] pt-3">
         <div className="absolute top-0 right-0 -z-10">
           <img src={decore} alt="decore" className="h-[40rem]" />
         </div>
 
-        <div className="px-5 sm:px-0">
+        <div className="px-5 sm:px-0 navbar">
           <Navbar />
         </div>
 
