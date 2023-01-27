@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+.border {
+  border: 2px black solid;
+}
+
+.subscribe-btn {
+  background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+}
+
+.volkhov {
+  font-family: "Volkhov", serif;
+}
+
+.poppins-title {
+  font-family: "Poppins", sans-serif;
+}
